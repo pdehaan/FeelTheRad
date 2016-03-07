@@ -1,0 +1,28 @@
+.main-header {
+  border-bottom: 10px solid red;
+  font-family: "Comic Sans MS";
+  padding: 2em;
+  text-align: center;
+
+  h1 {
+    color: white;
+    font-size: 6em;
+    margin: 0;
+    padding: 10px 20px;
+    text-shadow: 0 4px 0 rgba(pink, 0.4);
+
+    span.word {
+      &:nth-child(1) {
+        color: red;
+      }
+      &:nth-child(3) {
+        color: blue;
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}

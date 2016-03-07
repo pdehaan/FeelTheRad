@@ -1,0 +1,58 @@
+.quote-list {
+  margin: 0;
+  padding: 0;
+
+  blockquote {
+    align-items: center;
+    background-color: rgba(white, 0.4);
+    border-radius: 8px;
+    border: 2px solid rgba(pink, 0.4);
+    display: flex;
+    font-family: "Comic Sans MS";
+    justify-content: center;
+    margin: 14px;
+    padding: 8px;
+    text-align: left;
+
+    &:nth-child(even) {
+      text-align: right;
+
+      .profile-photo {
+        order: 2;
+      }
+    }
+
+    p {
+      flex: 1;
+      order: 2;
+      padding: 10px 20px;
+    }
+
+    .profile-photo {
+      border: 6px solid rgba(pink, 0.3);
+      border-radius: 100%;
+      display: block;
+      height: 80px;
+      order: 1;
+      width: 80px;
+    }
+  }
+
+  cite {
+    color: black;
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+
+  .quote {
+    font-size: 1.4em;
+    font-style: italic;
+
+    &:before,
+    &:after {
+      content: "\"";
+    }
+  }
+}
