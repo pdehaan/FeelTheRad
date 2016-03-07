@@ -40,6 +40,8 @@
   "repository": "pdehaan/FeelTheRad",
   "scripts": {
     "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "surge -p public -d feeltherad.surge.sh",
     "lint": "eslint .",
     "start": "hjs-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
