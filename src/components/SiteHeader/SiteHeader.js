@@ -2,7 +2,7 @@ import React from 'react';
 
 import './SiteHeader.scss';
 
-function SiteHeader(props) {
+function SiteHeader() {
   return (
     <header className="main-header">
       <h1>
@@ -10,7 +10,7 @@ function SiteHeader(props) {
         <span className="word">The</span>
         <span className="word">Rad</span>
       </h1>
-      <p><small>Veni. Saltavi. Ego sudasse.</small></p>
+      <h2>Veni. Saltavi. Ego sudasse.</h2>
     </header>
   );
 }

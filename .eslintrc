@@ -4,3 +4,18 @@ extends:
 env:
   es6: true
   node: true
+
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+    modules: true
+
+  ecmaVersion: 6
+  sourceType: module
+
+plugins:
+  - react
+
+rules:
+  react/jsx-uses-react: 1
+  react/jsx-uses-vars: 1

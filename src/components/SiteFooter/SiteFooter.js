@@ -2,7 +2,7 @@ import React from 'react';
 
 import './SiteFooter.scss';
 
-function SiteFooter(props) {
+function SiteFooter() {
   return (
     <footer className="main-footer">
       <p>This website was built &amp; is maintained by volunteers with no official relation to Amy.</p>

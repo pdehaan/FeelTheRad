@@ -4,11 +4,10 @@
 
   blockquote {
     align-items: center;
-    background-color: rgba(white, 0.4);
+    background-color: rgba(#000, 0.1);
+    border: 2px solid rgba(#F00, 0.8);
     border-radius: 8px;
-    border: 2px solid rgba(pink, 0.4);
     display: flex;
-    font-family: "Comic Sans MS";
     justify-content: center;
     margin: 14px;
     padding: 8px;
@@ -29,7 +28,7 @@
     }
 
     .profile-photo {
-      border: 6px solid rgba(pink, 0.3);
+      border: 4px solid rgba(#F00, 0.8);
       border-radius: 100%;
       display: block;
       height: 80px;
@@ -39,7 +38,7 @@
   }
 
   cite {
-    color: black;
+    color: #000;
     display: block;
     font-weight: bold;
     margin-top: 10px;
@@ -52,7 +51,7 @@
 
     &:before,
     &:after {
-      content: "\"";
+      content: '"';
     }
   }
 }

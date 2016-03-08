@@ -4,7 +4,7 @@ import QuoteList from '../Quotes/QuoteList';
 import SiteFooter from '../SiteFooter/SiteFooter';
 import SiteHeader from '../SiteHeader/SiteHeader';
 
-function Home(props) {
+function Home() {
   return (
     <main>
       <SiteHeader />
